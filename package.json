@@ -1,0 +1,14 @@
+{
+    "name": "hyper-search",
+    "version": "1.0.0",
+    "description": "reduce your time to search with this chrome extension",
+    "main": "background.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Simon Yuen",
+    "license": "ISC",
+    "dependencies": {
+        "node-nlp": "^4.27.0"
+    }
+}
