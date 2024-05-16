@@ -9,5 +9,6 @@
         },
         "default_popup": "./popup/pages/hello.html"
     },
-    "permissions": ["activeTab", "scripting"]
+    "permissions": ["activeTab", "scripting"],
+    "host_permissions": ["http://*/", "https://*/"]
 }
