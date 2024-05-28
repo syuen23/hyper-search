@@ -4,9 +4,6 @@
     "version": "0.0.1",
     "description": "An extension for searching a page for keywords and receiving results relate to the page from outside the current page's context",
     "icons": {
-        "16": "./images/icon-16.png",
-        "32": "./images/icon-32.png",
-        "48": "./images/icon-48.png",
         "128": "./images/icon-128.png"
     },
     "action": {
