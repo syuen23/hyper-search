@@ -5,7 +5,7 @@ async function getTabId() {
     return tab.id;
 }
 
-async function getTabInnerText() {
+export async function getTabInnerText() {
     const tabId = await getTabId();
     let result;
     try {
@@ -21,8 +21,11 @@ async function getTabInnerText() {
     return result;
 }
 
-const searchButton = document.querySelector("#search-btn");
+document.addEventListener("DOMContentLoaded", () => {
+    const searchInput = document.getElementById("");
+    const searchButton = document.getElementById("search-btn");
 
-if (searchButton) {
-    searchButton.addEventListener("click", getTabInnerText);
-}
+    if (searchButton) {
+        searchButton.addEventListener("click", getTabInnerText);
+    }
+});

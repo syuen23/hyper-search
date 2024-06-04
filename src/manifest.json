@@ -13,6 +13,6 @@
         },
         "default_popup": "./popup/pages/hello.html"
     },
-    "permissions": ["activeTab", "scripting"],
+    "permissions": ["activeTab", "scripting", "search"],
     "host_permissions": ["http://*/", "https://*/"]
 }
