@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "Hyper Search",
+    "version": "0.0.1",
+    "description": "An extension for searching a page for keywords and receiving results relate to the page from outside the current page's context",
+    "icons": {
+        "128": "./images/icon-128.png"
+    },
+    "action": {
+        "default_title": "Hyper Search",
+        "default_icon": {
+            "128": "./images/icon-128.png"
+        },
+        "default_popup": "./popup/main.html"
+    },
+    "background": {
+        "service_worker": "./scripts/service_worker.js",
+        "type": "module"
+    },
+    "permissions": ["activeTab", "scripting"],
+    "host_permissions": ["http://*/", "https://*/"]
+}
